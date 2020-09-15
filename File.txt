@@ -16,5 +16,10 @@ pipeline {
                 echo 'Finel Releasing'
             }
         }
+        stage('Sprint1') {
+            steps {
+                echo 'Trails Sprint1'
+            }
+        }
     }
 }
