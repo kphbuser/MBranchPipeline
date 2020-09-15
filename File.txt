@@ -26,6 +26,10 @@ pipeline {
                 echo 'Sprint2 Trail'
             }
         }
-        
+        stage('sprint') {
+            steps {
+                echo 'sprint'
+            }
+        }
     }
 }
