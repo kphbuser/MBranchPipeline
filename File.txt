@@ -6,5 +6,10 @@ pipeline {
                 sh 'java -version'
             }
         }
+        stage('Deploy') {
+            steps {
+                sh 'Deploying'
+            }
+        }
     }
 }
