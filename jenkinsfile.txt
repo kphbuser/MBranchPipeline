@@ -30,7 +30,7 @@ pipeline {
             }
         }
         stage('sprint') {
-            step {
+            steps {
                 echo 'sprint'
             }
         }
